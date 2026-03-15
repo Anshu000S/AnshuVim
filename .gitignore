@@ -1,0 +1,20 @@
+# Neovim Cache and Data
+.netrwhist
+*~
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*undo/
+
+# Lazy.nvim plugin state and plugins directory 
+# (Since your script will generate them on the fly)
+/lua/plugins/linters.lua
+/lazy-lock.json
+
+# Mason registry and installations
+mason/
+
+# MacOS garbage
+.DS_Store
