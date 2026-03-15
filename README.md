@@ -32,22 +32,15 @@ A fully automated, zero-touch installation script to bootstrap a modern Neovim c
 
 Simply download and execute the script. It is completely portable!
 
-### 1. Download the script
+### 1. Make it executable
 
-```bash
-wget https://raw.githubusercontent.com/[YOUR-USERNAME]/[YOUR-REPO]/main/setup_nvim.sh
-# Alternatively, clone the entire repository
-```
-
-### 2. Make it executable
-
-Ensure the script has permission to be run on your system:
+Ensure the script has permission to be run on your system after downloading or cloning it:
 
 ```bash
 chmod +x setup_nvim.sh
 ```
 
-### 3. Run the installer
+### 2. Run the installer
 
 ```bash
 bash setup_nvim.sh
